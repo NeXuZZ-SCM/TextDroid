@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetBackground"
+    android:layout_width="fill_parent"
+    android:background="#66ffffff"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+<!--    <TextView
+        android:id="@+id/textoVistaPrincipal"
+        android:text="@string/TotalVisa"
+        android:textColor="@android:color/black"
+        android:textSize="75px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+    <EditText
+                android:layout_width="match_parent"
+                android:textColor="@android:color/black"
+                android:textSize="75px"
+                android:hint="@string/plzcityhint"
+                android:text="@string/TotalVisa"
+                android:id="@+id/search_edit"
+                android:imeOptions="actionSearch"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+</LinearLayout>
