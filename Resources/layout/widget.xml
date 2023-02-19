@@ -10,8 +10,14 @@
     <TextView
         android:id="@+id/widgettemperatur"
         android:text="@string/placeholder"
-        android:textColor="@android:color/black"
-        android:textSize="75px"
+        android:textColor="@android:color/white"
+        android:shadowColor="#0b5fee"
+        android:fontFamily="sans-serif-condensed"
+        android:shape="rectangle"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="15"
+        android:textSize="18dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

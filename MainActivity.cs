@@ -1,28 +1,9 @@
 ﻿using Android.App;
-using Android.Content;
-using Android.Net;
 using Android.OS;
 using Android.Support.V7.App;
-using Android.Text;
 using Android.Views;
 using Android.Widget;
-using Com.Syncfusion.Charts;
-using Java.Lang;
-using Newtonsoft.Json;
-using Plugin.Geolocator;
-using Square.Picasso;
-using Syncfusion.Android.ProgressBar;
-using Syncfusion.SfPullToRefresh;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Globalization;
-using System.IO;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
 using Xamarin.Essentials;
-using AlertDialog = Android.Support.V7.App.AlertDialog;
 
 namespace Weather.Xamarin
 {

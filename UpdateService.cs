@@ -3,14 +3,12 @@ using Android.Appwidget;
 using Android.Content;
 using Android.OS;
 using Android.Widget;
-using Newtonsoft.Json;
 using System;
 using System.IO;
-using Xamarin.Essentials;
 
 namespace Weather.Xamarin
 {
-    [Service]
+	[Service]
     public class UpdateService : Service
     {
         [System.Obsolete]
