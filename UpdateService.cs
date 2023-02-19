@@ -41,10 +41,18 @@ namespace Weather.Xamarin
             var filename = Path.Combine(path.ToString(), "download/text.txt");
             string content;
 
-            using (StreamReader sr = new StreamReader(filename))
-            {
-                content = sr.ReadToEnd();
+			try
+			{
+                using (StreamReader sr = new StreamReader(filename))
+                {
+                    content = sr.ReadToEnd();
+                }
             }
+			catch (Exception)
+			{
+				content = "No existe archivo";
+            }
+
 
             //updateViews.SetTextViewText(Resource.Id.widgettemperatur, GetString(Resource.String.TotalVisa));
             updateViews.SetTextViewText(Resource.Id.widgettemperatur, content);
